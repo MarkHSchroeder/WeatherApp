@@ -39,7 +39,7 @@ The Weather App allows users to enter the name of a city and view the current we
 
 4. **Press the Keyboard Search Button:** The keyboard button will trigger the weather search.
 
-5. **Select the City:** Search results will display with a city to select. This city will become your default city.
+5. **Select the City:** Search results will display with a city to select. This city will become your default city only when selected.
 
 6. **View Weather Information:** The app will display the current weather data for the entered city, including:
     - Temperature (Fahrenheit)

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="searchPlaceholder">Search Location</string>
+    <string name="noCitySelected">No City Selected</string>
+    <string name="pleaseSearch">Please Search For A City</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv">UV</string>
+    <string name="feels">Feels Like</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="noNetwork">No Network Detected</string>
+    <string name="invalidCity">Invalid City</string>
+    <string name="noData">No weather data available</string>
+
+    <string name="degree">%s°</string>
+    <string name="percent">%s\%%</string>
+    <string name="contentDescDegree">degrees</string>
+</resources>

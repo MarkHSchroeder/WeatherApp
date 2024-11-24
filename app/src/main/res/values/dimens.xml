@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="noPadding">0dp</dimen>
+    <dimen name="pageHPadding">24dp</dimen>
+    <dimen name="pageVPadding">44dp</dimen>
+    <dimen name="boxCorners">16dp</dimen>
+    <dimen name="searchHeight">46dp</dimen>
+    <dimen name="searchStartEndPadding">20dp</dimen>
+    <dimen name="locationIconSize">21dp</dimen>
+    <dimen name="locationIconPadding">11dp</dimen>
+    <dimen name="homeWeatherIconSize">123dp</dimen>
+    <dimen name="weatherBoxWidth">274dp</dimen>
+    <dimen name="weatherBoxPadding">36dp</dimen>
+    <dimen name="weatherBoxInnerPadding">16dp</dimen>
+    <dimen name="weatherInfoHeaderHeight">18dp</dimen>
+    <dimen name="weatherInfoDataHeight">22.5dp</dimen>
+    <dimen name="weatherFeelsHeaderHeight">12dp</dimen>
+    <dimen name="searchTopPadding">32dp</dimen>
+    <dimen name="searchBoxInnerPadding">16dp</dimen>
+    <dimen name="searchCityHeight">30dp</dimen>
+
+    <dimen name="smallTextSize">15sp</dimen>
+    <dimen name="noCityTextSize">30sp</dimen>
+    <dimen name="tempTextSize">70sp</dimen>
+    <dimen name="dataTextSize">12sp</dimen>
+    <dimen name="feelsTextSize">8sp</dimen>
+    <dimen name="searchCityTextSize">20sp</dimen>
+    <dimen name="searchTempTextSize">60sp</dimen>
+    <dimen name="degreeTextSize0">8sp</dimen>
+</resources>

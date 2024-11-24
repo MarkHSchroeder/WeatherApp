@@ -21,7 +21,7 @@ The Weather App allows users to enter the name of a city and view the current we
    Clone the repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/yourusername/weather-app.git```
+   git clone https://github.com/yourusername/weather-app.git
    
 2. **Open the Project:** Open the project in Android Studio
 

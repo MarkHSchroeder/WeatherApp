@@ -72,6 +72,7 @@ The app uses the WeatherAPI.com API to retrieve weather data. Detailed documenta
   - **Improved Text Field Validation:** Currently the search field just ignores empty strings and does not set a character limit. Providing an error and setting a limit slightly above what would be expected for a long city name would be ideal.
   - **Reduce Network Usage:** Currently both the search screen and home screen make the same network call. Both could potentially be the first one to call it, but adding caching and passing the results within a short time limit should reduce the number of calls being made.
   - **Degree Symbol Sizing:** The degree symbol is text that is being scaled with the text size. It appears too large on most places it is used. A lot of additional adjustments would be required to reduce the size while allowing it to still line up correctly on all screen sizes and densities.
+  - **F/C Toggle:** The API provides both Celcuis and Fahrenheit, so adding a user preference to switch between them would be relatively easy. However, this would require adding a settings page.
 
 
 ## Support

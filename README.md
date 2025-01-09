@@ -74,6 +74,9 @@ The app uses the WeatherAPI.com API to retrieve weather data. Detailed documenta
   - **Degree Symbol Sizing:** The degree symbol is text that is being scaled with the text size. It appears too large on most places it is used. A lot of additional adjustments would be required to reduce the size while allowing it to still line up correctly on all screen sizes and densities.
   - **F/C Toggle:** The API provides both Celcuis and Fahrenheit, so adding a user preference to switch between them would be relatively easy. However, this would require adding a settings page.
 
+## Build With
+
+Android Studio Ladybug | 2024.2.1 Patch 3
 
 ## Support
 

@@ -5,7 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Text
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -20,6 +20,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import coil.compose.rememberAsyncImagePainter
 import com.mschroeder.weatherapp.R
+import com.mschroeder.weatherapp.data.Condition
+import com.mschroeder.weatherapp.data.CurrentWeather
+import com.mschroeder.weatherapp.data.Location
 import com.mschroeder.weatherapp.data.WeatherResponse
 
 @Composable
@@ -73,5 +76,15 @@ fun SearchResult(model: WeatherResponse, onSearchItemClicked: () -> Unit) {
 @Preview(showBackground = true)
 @Composable
 fun SearchResultPreview() {
-
+    SearchResult(model = WeatherResponse(
+        location = Location("City Name"),
+        current = CurrentWeather(
+            temp_f = 72.4f,
+            condition = Condition(text = "Sunny", icon = "Sunny Icon"),
+            humidity = 50,
+            uv = 2.5f,
+            feelslike_f = 75.6f
+        )
+    ),
+        onSearchItemClicked = {})
 }

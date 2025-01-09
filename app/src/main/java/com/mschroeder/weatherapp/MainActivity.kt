@@ -6,10 +6,9 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Surface
-import androidx.compose.material.Typography
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
@@ -18,13 +17,12 @@ import androidx.navigation.compose.rememberNavController
 import com.mschroeder.weatherapp.ui.WeatherNavigation
 import com.mschroeder.weatherapp.ui.WeatherScreens
 import com.mschroeder.weatherapp.ui.components.searachbar.SearchBar
-import com.mschroeder.weatherapp.ui.theme.poppinsFontFamily
+import com.mschroeder.weatherapp.ui.theme.weatherTypography
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
+        override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContent {
@@ -32,7 +30,7 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             Surface(color = colorResource(id = R.color.backgroundColor)) {
                 MaterialTheme(
-                    typography = Typography(defaultFontFamily = poppinsFontFamily)
+                    typography = weatherTypography
                 ) {
                     Column(
                         modifier = Modifier

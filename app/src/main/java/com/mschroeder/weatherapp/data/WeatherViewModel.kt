@@ -19,8 +19,8 @@ class WeatherViewModel @Inject constructor(
     private val _loading = MutableLiveData<Boolean>()
     val loading: LiveData<Boolean> get() = _loading
 
-    private val _error = MutableLiveData<Exception>()
-    val error: LiveData<Exception> get() = _error
+    private val _error = MutableLiveData<Exception?>()
+    val error: LiveData<Exception?> get() = _error
 
     fun getWeather(location: String) {
         if (location.isNotEmpty()) {
